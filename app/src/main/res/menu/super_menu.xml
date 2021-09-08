@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ArrowBack"
+        app:showAsAction="always"
+        android:icon="@drawable/arrow_back_24"
+        android:title="Go Backward" />
+
+    <item
+        android:id="@+id/ArrowForward"
+        app:showAsAction="always"
+        android:icon="@drawable/arrow_forward_24"
+        android:title="Go Forward"/>
+
+    <item
+        android:id="@+id/Refresh"
+        app:showAsAction="always"
+        android:icon="@drawable/refresh_24"
+        android:title="Refresh" />
+
+    <item
+        android:id="@+id/item"
+        android:icon="@drawable/refresh_24"
+        android:title="item 1" />
+
+    <item
+        android:id="@+id/item2"
+        android:icon="@drawable/arrow_forward_24"
+        android:title="item 2" />
+
+    <item
+        android:id="@+id/item3"
+        android:icon="@drawable/arrow_forward_24"
+        android:title="item 3" />
+
+
+</menu>
